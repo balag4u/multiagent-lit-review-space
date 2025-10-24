@@ -1,11 +1,15 @@
-gradio==3.37.0
 fastapi==0.95.2
 uvicorn==0.22.0
 transformers==4.40.0
-torch==2.1.0
+torch==2.2.0
 scikit-learn==1.2.2
 pandas==2.2.2
 tqdm==4.66.1
 requests==2.31.0
 python-dateutil==2.8.2
 fsspec==2024.5.0
+streamlit
+pypdf
+python-docx
+openpyxl
+python-pptx

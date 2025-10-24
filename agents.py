@@ -5,6 +5,7 @@ import torch
 from datetime import datetime
 import hashlib
 import numpy as np
+from data_providers import search_pubmed, search_patents
 
 class SimpleEmbedder:
     def __init__(self, model_name: str = "sentence-transformers/all-MiniLM-L6-v2", device: int = None):
@@ -42,25 +43,6 @@ class SimpleEmbedder:
             emb = emb / norms
             all_embs.append(emb)
         return np.vstack(all_embs)
-
-class RetrieverAgent:
-    def __init__(self, docs: List[Dict], embed_model_name: str = "sentence-transformers/all-MiniLM-L6-v2"):
-        self.docs = docs
-        self.embedder = SimpleEmbedder(embed_model_name)
-        texts = [d.get("text", d.get("abstract", "")) for d in docs]
-        self.doc_embeddings = self.embedder.encode(texts)
-
-    def retrieve(self, query: str, top_k: int = 5):
-        q_emb = self.embedder.encode([query])[0]
-        sims = np.dot(self.doc_embeddings, q_emb)
-        top_idx = sims.argsort()[::-1][:top_k]
-        results = []
-        for idx in top_idx:
-            doc = self.docs[int(idx)].copy()
-            doc['_score'] = float(sims[int(idx)])
-            doc['_retrieved_at'] = datetime.utcnow().isoformat() + "Z"
-            results.append(doc)
-        return results
 
 class ExtractorAgent:
     def __init__(self):
@@ -111,20 +93,36 @@ class CitationAgent:
         return provenance
 
 class Orchestrator:
-    def __init__(self, docs, models_config):
+    def __init__(self, models_config):
         embed_model = models_config.get('embed_model', "sentence-transformers/all-MiniLM-L6-v2")
         summarizer_model = models_config.get('summarizer_model', "sshleifer/distilbart-cnn-12-6")
-        self.retriever = RetrieverAgent(docs, embed_model)
+        self.embedder = SimpleEmbedder(embed_model)
         self.extractor = ExtractorAgent()
         self.summarizer = SummarizerAgent(summarizer_model)
         self.citation = CitationAgent()
 
-    def run(self, query: str, top_k: int = 5):
+    def run(self, query: str, top_k: int = 5, enterprise_docs: List[Dict] = []):
         """
         Runs the multi-agent retrieval, extraction, summarization, and hierarchical executive summary pipeline.
         """
         # ---- Document-level processing ----
-        retrieved = self.retriever.retrieve(query, top_k=top_k)
+        pubmed_articles = search_pubmed(query, max_results=top_k)
+        patents = search_patents(query, max_results=top_k)
+
+        all_docs = pubmed_articles + patents + enterprise_docs
+
+        texts = [d.get("text", d.get("abstract", "")) for d in all_docs]
+        doc_embeddings = self.embedder.encode(texts)
+        q_emb = self.embedder.encode([query])[0]
+        sims = np.dot(doc_embeddings, q_emb)
+        top_idx = sims.argsort()[::-1][:top_k]
+        retrieved = []
+        for idx in top_idx:
+            doc = all_docs[int(idx)].copy()
+            doc['_score'] = float(sims[int(idx)])
+            doc['_retrieved_at'] = datetime.utcnow().isoformat() + "Z"
+            retrieved.append(doc)
+
         results = []
         for doc in retrieved:
             passage = self.extractor.extract(doc, query)

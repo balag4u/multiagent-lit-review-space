@@ -8,15 +8,12 @@ import os
 # Initialize FastAPI app
 app = FastAPI()
 
-# Load config and docs
+# Load config
 HERE = os.path.dirname(__file__)
 models_cfg = load_json(os.path.join(HERE, "models_config.json"))
-pubmed = load_json(os.path.join(HERE, "sample_data", "pubmed_sample.json"))
-patents = load_json(os.path.join(HERE, "sample_data", "patents_sample.json"))
-docs = pubmed + patents
 
 # Initialize orchestrator once
-orch = Orchestrator(docs, {
+orch = Orchestrator({
     "embed_model": models_cfg["embed_model"],
     "summarizer_model": models_cfg["summarizer_model"]
 })
@@ -25,6 +22,7 @@ orch = Orchestrator(docs, {
 class QueryRequest(BaseModel):
     query: str
     top_k: int = 5
+    enterprise_docs: list = []
 
 @app.post("/api/query")
 async def query_endpoint(body: QueryRequest):
@@ -33,8 +31,11 @@ async def query_endpoint(body: QueryRequest):
     Example POST body:
     {
       "query": "neutralizing antibody patents + clinical trials 2019-2024",
-      "top_k": 5
+      "top_k": 5,
+      "enterprise_docs": [
+            {"text": "This is a sample document.", "source": "sample.txt"}
+      ]
     }
     """
-    result = orch.run(body.query, top_k=body.top_k)
+    result = orch.run(body.query, top_k=body.top_k, enterprise_docs=body.enterprise_docs)
     return result

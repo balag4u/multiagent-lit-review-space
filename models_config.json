@@ -1,0 +1,5 @@
+{
+  "summarizer_model": "sshleifer/distilbart-cnn-12-6",
+  "embed_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "nli_model": "facebook/bart-large-mnli"
+}

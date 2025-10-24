@@ -1,0 +1,92 @@
+[
+  {
+    "title": "Neutralizing antibody responses to SARS-CoV-2 in COVID-19 patients",
+    "authors": ["Smith J", "Lee A"],
+    "doi": "10.1000/example-doi-1",
+    "source": "PubMed",
+    "url": "https://pubmed.example/1",
+    "abstract": "We measured neutralizing antibody levels in 200 patients using a pseudovirus assay. Neutralization peaked at day 28 after symptoms. Clinical implications discussed. Methods: ELISA and neutralization.",
+    "text": "We measured neutralizing antibody levels in 200 patients using a pseudovirus assay. Neutralization peaked at day 28 after symptoms. Clinical implications discussed. Methods: ELISA and neutralization."
+  },
+  {
+    "title": "Impact of a Mediterranean Diet on Cardiovascular Health in High-Risk Individuals",
+    "authors": ["García R", "Chen B", "Patel S"],
+    "doi": "10.2000/nutr.cardio.15",
+    "source": "ScienceDirect",
+    "url": "https://sciencedirect.example/2",
+    "abstract": "A randomized controlled trial (n=744) investigated the effect of an olive-oil-enriched Mediterranean diet on major cardiovascular events. Results showed a significant reduction (30%) in the primary endpoint. Conclusions: Diet modification is key. Methods: RCT, Kaplan-Meier.",
+    "text": "A randomized controlled trial (n=744) investigated the effect of an olive-oil-enriched Mediterranean diet on major cardiovascular events. Results showed a significant reduction (30%) in the primary endpoint. Conclusions: Diet modification is key. Methods: RCT, Kaplan-Meier."
+  },
+  {
+    "title": "The Role of Microglia in Alzheimer's Disease Pathology and Progression",
+    "authors": ["Miller A", "Singh P", "Wang Z"],
+    "doi": "10.4000/neuro.micro.101",
+    "source": "Nature",
+    "url": "https://nature.example/4",
+    "abstract": "Post-mortem brain tissue analysis of 50 AD patients revealed a correlation between activated microglial density (IBA1 staining) and amyloid-beta plaque load. Inhibiting a specific microglial receptor (TREM2) reduced plaque clearance in mice. Methods: Immunohistochemistry, Western Blot.",
+    "text": "Post-mortem brain tissue analysis of 50 AD patients revealed a correlation between activated microglial density (IBA1 staining) and amyloid-beta plaque load. Inhibiting a specific microglial receptor (TREM2) reduced plaque clearance in mice. Methods: Immunohistochemistry, Western Blot."
+  },
+  {
+    "title": "Genetic Variation in Response to Statin Therapy in Diverse Populations",
+    "authors": ["Wong L", "Kaur M", "Dubois G"],
+    "doi": "10.7000/pharm.gen.50",
+    "source": "The Lancet",
+    "url": "https://thelancet.example/7",
+    "abstract": "A meta-analysis of 15 GWAS studies (N>50,000) identified a novel SNP in the *SLCO1B1* gene significantly associated with reduced LDL-C lowering effect from simvastatin in African American cohorts. Personalized dosing is suggested. Methods: Meta-analysis, GWAS, qPCR.",
+    "text": "A meta-analysis of 15 GWAS studies (N>50,000) identified a novel SNP in the *SLCO1B1* gene significantly associated with reduced LDL-C lowering effect from simvastatin in African American cohorts. Personalized dosing is suggested. Methods: Meta-analysis, GWAS, qPCR."
+  },
+  {
+    "title": "Development of a Novel Bio-ink for 3D Printing of Functional Liver Tissue",
+    "authors": ["Lee H", "Choi S"],
+    "doi": "10.9000/biom.ink.33",
+    "source": "Advanced Materials",
+    "url": "https://advmat.example/9",
+    "abstract": "We synthesized a hydrogel-based bio-ink composed of gelatin methacrylate and hyaluronic acid. Bioprinted liver spheroids maintained high viability (>90%) and showed functional albumin synthesis for 14 days in culture. The scaffold stiffness was optimized. Methods: Rheology, Cell Viability Assays, ELISA.",
+    "text": "We synthesized a hydrogel-based bio-ink composed of gelatin methacrylate and hyaluronic acid. Bioprinted liver spheroids maintained high viability (>90%) and showed functional albumin synthesis for 14 days in culture. The scaffold stiffness was optimized. Methods: Rheology, Cell Viability Assays, ELISA."
+  },
+  {
+    "title": "Clinical Efficacy of a Continuous Glucose Monitoring System in Type 2 Diabetes Management",
+    "authors": ["Chen A", "Martinez P"],
+    "doi": "10.1200/medtech.cgm.20",
+    "source": "Diabetes Care",
+    "url": "https://diabetescare.example/12",
+    "abstract": "A 12-week prospective study (n=150) assessed the impact of a new minimally invasive continuous glucose monitor (CGM) on HbA1c levels. Mean HbA1c reduction was $0.8\%$, significantly greater than the control group. Patient satisfaction was high. Methods: RCT, HbA1c measurement, Statistical analysis.",
+    "text": "A 12-week prospective study (n=150) assessed the impact of a new minimally invasive continuous glucose monitor (CGM) on $\mathrm{HbA1c}$ levels. Mean $\mathrm{HbA1c}$ reduction was $0.8\%$, significantly greater than the control group. Patient satisfaction was high. Methods: RCT, $\mathrm{HbA1c}$ measurement, Statistical analysis."
+  },
+  {
+    "title": "Targeting the P38 MAPK Pathway for Novel Anti-inflammatory Drug Development",
+    "authors": ["Jones M", "Kumar R"],
+    "doi": "10.1300/pharma.p38.25",
+    "source": "Journal of Medicinal Chemistry",
+    "url": "https://jmedchem.example/13",
+    "abstract": "We designed and synthesized a series of novel small-molecule inhibitors targeting the P38 MAPK pathway. Compound JMK-21 demonstrated the highest potency ($\mathrm{IC}_{50} = 5\ \mathrm{nM}$) and selectivity in *in vitro* assays. Efficacy shown in a mouse arthritis model. Methods: $\mathrm{IC}_{50}$ assay, $\mathrm{HPLC}$, Animal model.",
+    "text": "We designed and synthesized a series of novel small-molecule inhibitors targeting the $\mathrm{P38}$ $\mathrm{MAPK}$ pathway. Compound $\mathrm{JMK}-21$ demonstrated the highest potency ($\mathrm{IC}_{50} = 5\ \mathrm{nM}$) and selectivity in *in vitro* assays. Efficacy shown in a mouse arthritis model. Methods: $\mathrm{IC}_{50}$ assay, $\mathrm{HPLC}$, Animal model."
+  },
+  {
+    "title": "Cryo-EM Structure of the Human GABAA Receptor Bound to Diazepam",
+    "authors": ["Sato T", "Gao L"],
+    "doi": "10.1400/biotech.cryo.17",
+    "source": "Cell",
+    "url": "https://cell.example/14",
+    "abstract": "The high-resolution ($2.5\ \mathrm{\AA}$) cryo-electron microscopy ($\mathrm{Cryo}$-$\mathrm{EM}$) structure of the $\mathrm{GABA}_{\mathrm{A}}$ receptor was determined in complex with the benzodiazepine, diazepam. The structure reveals the precise binding site and conformational changes induced upon ligand binding. Implications for drug design discussed. Methods: $\mathrm{Cryo}$-$\mathrm{EM}$, Single-particle analysis.",
+    "text": "The high-resolution ($2.5\ \mathrm{\AA}$) cryo-electron microscopy ($\mathrm{Cryo}$-$\mathrm{EM}$) structure of the $\mathrm{GABA}_{\mathrm{A}}$ receptor was determined in complex with the benzodiazepine, diazepam. The structure reveals the precise binding site and conformational changes induced upon ligand binding. Implications for drug design discussed. Methods: $\mathrm{Cryo}$-$\mathrm{EM}$, Single-particle analysis."
+  },
+  {
+    "title": "Effectiveness of a Robotic Surgical System for Minimally Invasive Prostatectomy",
+    "authors": ["White C", "Nguyen T"],
+    "doi": "10.1500/meddev.robot.30",
+    "source": "JAMA Surgery",
+    "url": "https://jamasurgery.example/15",
+    "abstract": "A retrospective cohort study comparing 500 robotic-assisted vs. 500 open prostatectomy procedures found significantly lower blood loss and shorter hospital stay in the robotic group. No difference in long-term oncological outcomes. Med device implications are clear. Methods: Retrospective Cohort, Propensity Score Matching.",
+    "text": "A retrospective cohort study comparing 500 robotic-assisted vs. 500 open prostatectomy procedures found significantly lower blood loss and shorter hospital stay in the robotic group. No difference in long-term oncological outcomes. Med device implications are clear. Methods: Retrospective Cohort, Propensity Score Matching."
+  },
+  {
+    "title": "CRISPR-Mediated Gene Editing for Correction of the CFTR Mutation in Primary Airway Cells",
+    "authors": ["Zhang Q", "Doudna J"],
+    "doi": "10.1600/biotech.crispr.05",
+    "source": "Science",
+    "url": "https://science.example/16",
+    "abstract": "We used an AAV-delivered CRISPR-Cas9 system to correct the $\Delta\mathrm{F508}$ mutation in cystic fibrosis transmembrane conductance regulator ($\mathrm{CFTR}$) in primary human bronchial epithelial cells. Correction efficiency reached $40\%$ and restored chloride channel function. Methods: $\mathrm{CRISPR/Cas9}$, $\mathrm{AAV}$ delivery, Patch-clamp electrophysiology.",
+    "text": "We used an $\mathrm{AAV}$-delivered $\mathrm{CRISPR}$-$\mathrm{Cas9}$ system to correct the $\Delta\mathrm{F508}$ mutation in cystic fibrosis transmembrane conductance regulator ($\mathrm{CFTR}$) in primary human bronchial epithelial cells. Correction efficiency reached $40\%$ and restored chloride channel function. Methods: $\mathrm{CRISPR/Cas9}$, $\mathrm{AAV}$ delivery, Patch-clamp electrophysiology."
+  }
+]

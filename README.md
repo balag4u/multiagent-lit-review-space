@@ -3,24 +3,24 @@ title: Multiagent Lit Review Space
 emoji: 👁
 colorFrom: indigo
 colorTo: indigo
-sdk: gradio
-sdk_version: 5.49.1
-app_file: app.py
+sdk: streamlit
+sdk_version: 1.30.0
+app_file: streamlit_app.py
 pinned: false
 ---
 # Multi-Agent Literature + Patent Aggregator (HF Space POC)
 
-This Gradio Space demonstrates a multi-agent pipeline for literature review and patent aggregation, returning summaries with provenance.
+This Streamlit Space demonstrates a multi-agent pipeline for literature review and patent aggregation, returning summaries with provenance.
 
 ## How to run locally
 1. `git clone <repo>`
 2. `python -m venv .venv && source .venv/bin/activate`
 3. `pip install -r requirements.txt`
-4. `python app.py`
-5. Open `http://localhost:7860`
+4. `streamlit run streamlit_app.py`
+5. Open `http://localhost:8501`
 
 ## Deploy to Hugging Face Spaces
-1. Create a new Space on Hugging Face, runtime: `Gradio`, SDK: `Python`.
+1. Create a new Space on Hugging Face, runtime: `Streamlit`, SDK: `Python`.
 2. Push this repository to the new Space (via `git push` following HF instructions).
 3. The Space will run in the HF environment. If dependency issues, adjust `requirements.txt`.
 

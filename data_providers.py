@@ -84,12 +84,11 @@ def search_patents(query, max_results=10):
     except json.JSONDecodeError:
         print("Error decoding JSON from PatentsView")
         return []
-        for patent in data.get("patents", []):
-            patents.append({
-                "title": patent.get("patent_title"),
-                "abstract": patent.get("patent_abstract"),
-                "url": f"https://patents.google.com/patent/US{patent.get('patent_id')}/en",
-                "source": "PatentsView"
-            })
-        return patents
-    return []
+    for patent in data.get("patents", []):
+        patents.append({
+            "title": patent.get("patent_title"),
+            "abstract": patent.get("patent_abstract"),
+            "url": f"https://patents.google.com/patent/US{patent.get('patent_id')}/en",
+            "source": "PatentsView"
+        })
+    return patents

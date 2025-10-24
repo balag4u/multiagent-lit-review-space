@@ -67,9 +67,15 @@ def search_patents(query, max_results=10):
     Searches PatentsView for a given query and returns a list of patents.
     """
     base_url = "https://api.patentsview.org/patents/query"
-    query = {"_qf": "patent_title", "_qo": "AND", "patent_title": query}
+    # Perform a text search for the query in the patent title or abstract
+    query_dict = {
+        "_or": [
+            {"_text_any": {"patent_title": query}},
+            {"_text_any": {"patent_abstract": query}}
+        ]
+    }
     params = {
-        "q": json.dumps(query),
+        "q": json.dumps(query_dict),
         "f": '["patent_id","patent_title","patent_abstract","assignee_organization","patent_date"]',
         "o": {"per_page": max_results}
     }

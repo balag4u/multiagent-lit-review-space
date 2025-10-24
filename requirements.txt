@@ -9,7 +9,7 @@ requests==2.31.0
 python-dateutil==2.8.2
 fsspec==2024.5.0
 streamlit
-pypdf
+PyPDF2
 python-docx
 openpyxl
 python-pptx

@@ -13,7 +13,7 @@
     "source": "Patent",
     "url": "https://patents.example/EP300100",
     "abstract": "The invention relates to genetically modified T cells expressing a Chimeric Antigen Receptor (CAR) specific for the CD19 antigen, and their use in treating leukemia and lymphoma.",
-    "text": "Compositions and methods for adoptive T cell therapy using CAR-T cells directed against CD19. Includes a specific scFv sequence and co-stimulatory domains (4-1BB and CD3$\zeta$). The final drug product composition is also claimed."
+    "text": "Compositions and methods for adoptive T cell therapy using CAR-T cells directed against CD19. Includes a specific scFv sequence and co-stimulatory domains (4-1BB and CD3$\\zeta$). The final drug product composition is also claimed."
   },
   {
     "title": "Hydrogel-based Drug Delivery System for Sustained Release of Insulin",
@@ -21,7 +21,7 @@
     "source": "Patent",
     "url": "https://patents.example/WO20230500",
     "abstract": "A biocompatible, injectable hydrogel composition for the subcutaneous delivery of therapeutic agents, specifically insulin, over a period of at least seven days.",
-    "text": "A cross-linked poly(ethylene glycol) (PEG) based hydrogel matrix containing encapsulated insulin microparticles. The invention covers the specific polymer ratio and $\mathrm{pH}$-sensitive degradation profile allowing zero-order release kinetics for sustained diabetes management."
+    "text": "A cross-linked poly(ethylene glycol) (PEG) based hydrogel matrix containing encapsulated insulin microparticles. The invention covers the specific polymer ratio and $\\mathrm{pH}$-sensitive degradation profile allowing zero-order release kinetics for sustained diabetes management."
   },
   {
     "title": "Non-Invasive Sensor and Algorithm for Continuous Blood Pressure Monitoring",
@@ -29,7 +29,7 @@
     "source": "Patent",
     "url": "https://patents.example/US11223344",
     "abstract": "A wearable medical device and accompanying algorithm for cuffless, continuous measurement of arterial blood pressure using Photoplethysmography (PPG) and Electrocardiography (ECG) sensors.",
-    "text": "A wrist-worn medical device incorporating PPG and ECG sensors to calculate Pulse Wave Velocity (PWV). The claim details a machine learning model trained on over 1,000 patient datasets to calibrate and provide accurate blood pressure readings within $5\ \mathrm{mmHg}$ of invasive measurements."
+    "text": "A wrist-worn medical device incorporating PPG and ECG sensors to calculate Pulse Wave Velocity (PWV). The claim details a machine learning model trained on over 1,000 patient datasets to calibrate and provide accurate blood pressure readings within $5\\ \\mathrm{mmHg}$ of invasive measurements."
   },
   {
     "title": "Novel Small Molecule Inhibitor of FGFR1 for Cancer Treatment",
@@ -45,15 +45,15 @@
     "source": "Patent",
     "url": "https://patents.example/GB2550999",
     "abstract": "An apparatus and method for rapidly and accurately determining the base sequence of a nucleic acid molecule by passing it through an engineered protein nanopore and detecting characteristic current changes.",
-    "text": "A nanopore sequencing device architecture that includes an array of $1,024$ individually addressable nanopore channels. The patent claims an improved method of signal processing (a Hidden Markov Model) for base calling with Q scores greater than Q30 for $90\%$ of reads."
+    "text": "A nanopore sequencing device architecture that includes an array of $1,024$ individually addressable nanopore channels. The patent claims an improved method of signal processing (a Hidden Markov Model) for base calling with Q scores greater than Q30 for $90\\%$ of reads."
   },
   {
     "title": "RNA Vaccine Encoding Stabilized Spike Protein and Delivery System",
     "authors": ["Dubois G", "Kaur M"],
     "source": "Patent",
     "url": "https://patents.example/CA3100000",
-    "abstract": "A lipid nanoparticle ($\mathrm{LNP}$) composition encapsulating a messenger RNA ($\mathrm{mRNA}$) that encodes a prefusion-stabilized viral Spike ($\mathrm{S}$) protein for use as a vaccine.",
-    "text": "An mRNA vaccine composition comprising a sequence that includes two proline substitutions at positions K986 and V987 to stabilize the S protein. The LNP formulation includes specific cationic lipids (ALC-0315) and is optimized for storage at $-20^\circ\mathrm{C}$."
+    "abstract": "A lipid nanoparticle ($\\mathrm{LNP}$) composition encapsulating a messenger RNA ($\\mathrm{mRNA}$) that encodes a prefusion-stabilized viral Spike ($\\mathrm{S}$) protein for use as a vaccine.",
+    "text": "An mRNA vaccine composition comprising a sequence that includes two proline substitutions at positions K986 and V987 to stabilize the S protein. The LNP formulation includes specific cationic lipids (ALC-0315) and is optimized for storage at $-20^\\circ\\mathrm{C}$."
   },
   {
     "title": "Smart Surgical Stapler with Tissue Thickness Sensing",
@@ -77,6 +77,6 @@
     "source": "Patent",
     "url": "https://patents.example/EP4550000",
     "abstract": "A fully bio-resorbable vascular scaffold (BVS) for the treatment of coronary artery disease, fabricated from a proprietary magnesium-neodymium alloy with adjustable degradation kinetics.",
-    "text": "A stent design featuring a specific open-cell geometry to maintain vessel support for six months while ensuring complete resorption within 18 months, thereby eliminating long-term foreign body presence. The alloy composition includes $94\%\ \mathrm{Mg}$ and $6\%\ \mathrm{Nd}$ for optimal mechanical properties and bio-compatibility."
+    "text": "A stent design featuring a specific open-cell geometry to maintain vessel support for six months while ensuring complete resorption within 18 months, thereby eliminating long-term foreign body presence. The alloy composition includes $94\\%\\ \\mathrm{Mg}$ and $6\\%\\ \\mathrm{Nd}$ for optimal mechanical properties and bio-compatibility."
   }
 ]

@@ -50,8 +50,8 @@
     "doi": "10.1200/medtech.cgm.20",
     "source": "Diabetes Care",
     "url": "https://diabetescare.example/12",
-    "abstract": "A 12-week prospective study (n=150) assessed the impact of a new minimally invasive continuous glucose monitor (CGM) on HbA1c levels. Mean HbA1c reduction was $0.8\%$, significantly greater than the control group. Patient satisfaction was high. Methods: RCT, HbA1c measurement, Statistical analysis.",
-    "text": "A 12-week prospective study (n=150) assessed the impact of a new minimally invasive continuous glucose monitor (CGM) on $\mathrm{HbA1c}$ levels. Mean $\mathrm{HbA1c}$ reduction was $0.8\%$, significantly greater than the control group. Patient satisfaction was high. Methods: RCT, $\mathrm{HbA1c}$ measurement, Statistical analysis."
+    "abstract": "A 12-week prospective study (n=150) assessed the impact of a new minimally invasive continuous glucose monitor (CGM) on HbA1c levels. Mean HbA1c reduction was $0.8\\%$, significantly greater than the control group. Patient satisfaction was high. Methods: RCT, HbA1c measurement, Statistical analysis.",
+    "text": "A 12-week prospective study (n=150) assessed the impact of a new minimally invasive continuous glucose monitor (CGM) on $\\mathrm{HbA1c}$ levels. Mean $\\mathrm{HbA1c}$ reduction was $0.8\\%$, significantly greater than the control group. Patient satisfaction was high. Methods: RCT, $\\mathrm{HbA1c}$ measurement, Statistical analysis."
   },
   {
     "title": "Targeting the P38 MAPK Pathway for Novel Anti-inflammatory Drug Development",
@@ -59,8 +59,8 @@
     "doi": "10.1300/pharma.p38.25",
     "source": "Journal of Medicinal Chemistry",
     "url": "https://jmedchem.example/13",
-    "abstract": "We designed and synthesized a series of novel small-molecule inhibitors targeting the P38 MAPK pathway. Compound JMK-21 demonstrated the highest potency ($\mathrm{IC}_{50} = 5\ \mathrm{nM}$) and selectivity in *in vitro* assays. Efficacy shown in a mouse arthritis model. Methods: $\mathrm{IC}_{50}$ assay, $\mathrm{HPLC}$, Animal model.",
-    "text": "We designed and synthesized a series of novel small-molecule inhibitors targeting the $\mathrm{P38}$ $\mathrm{MAPK}$ pathway. Compound $\mathrm{JMK}-21$ demonstrated the highest potency ($\mathrm{IC}_{50} = 5\ \mathrm{nM}$) and selectivity in *in vitro* assays. Efficacy shown in a mouse arthritis model. Methods: $\mathrm{IC}_{50}$ assay, $\mathrm{HPLC}$, Animal model."
+    "abstract": "We designed and synthesized a series of novel small-molecule inhibitors targeting the P38 MAPK pathway. Compound JMK-21 demonstrated the highest potency ($\\mathrm{IC}_{50} = 5\\ \\mathrm{nM}$) and selectivity in *in vitro* assays. Efficacy shown in a mouse arthritis model. Methods: $\\mathrm{IC}_{50}$ assay, $\\mathrm{HPLC}$, Animal model.",
+    "text": "We designed and synthesized a series of novel small-molecule inhibitors targeting the $\\mathrm{P38}$ $\\mathrm{MAPK}$ pathway. Compound $\\mathrm{JMK}-21$ demonstrated the highest potency ($\\mathrm{IC}_{50} = 5\\ \\mathrm{nM}$) and selectivity in *in vitro* assays. Efficacy shown in a mouse arthritis model. Methods: $\\mathrm{IC}_{50}$ assay, $\\mathrm{HPLC}$, Animal model."
   },
   {
     "title": "Cryo-EM Structure of the Human GABAA Receptor Bound to Diazepam",
@@ -68,8 +68,8 @@
     "doi": "10.1400/biotech.cryo.17",
     "source": "Cell",
     "url": "https://cell.example/14",
-    "abstract": "The high-resolution ($2.5\ \mathrm{\AA}$) cryo-electron microscopy ($\mathrm{Cryo}$-$\mathrm{EM}$) structure of the $\mathrm{GABA}_{\mathrm{A}}$ receptor was determined in complex with the benzodiazepine, diazepam. The structure reveals the precise binding site and conformational changes induced upon ligand binding. Implications for drug design discussed. Methods: $\mathrm{Cryo}$-$\mathrm{EM}$, Single-particle analysis.",
-    "text": "The high-resolution ($2.5\ \mathrm{\AA}$) cryo-electron microscopy ($\mathrm{Cryo}$-$\mathrm{EM}$) structure of the $\mathrm{GABA}_{\mathrm{A}}$ receptor was determined in complex with the benzodiazepine, diazepam. The structure reveals the precise binding site and conformational changes induced upon ligand binding. Implications for drug design discussed. Methods: $\mathrm{Cryo}$-$\mathrm{EM}$, Single-particle analysis."
+    "abstract": "The high-resolution ($2.5\\ \\mathrm{\\AA}$) cryo-electron microscopy ($\\mathrm{Cryo}$-$\\mathrm{EM}$) structure of the $\\mathrm{GABA}_{\\mathrm{A}}$ receptor was determined in complex with the benzodiazepine, diazepam. The structure reveals the precise binding site and conformational changes induced upon ligand binding. Implications for drug design discussed. Methods: $\\mathrm{Cryo}$-$\\mathrm{EM}$, Single-particle analysis.",
+    "text": "The high-resolution ($2.5\\ \\mathrm{\\AA}$) cryo-electron microscopy ($\\mathrm{Cryo}$-$\\mathrm{EM}$) structure of the $\\mathrm{GABA}_{\\mathrm{A}}$ receptor was determined in complex with the benzodiazepine, diazepam. The structure reveals the precise binding site and conformational changes induced upon ligand binding. Implications for drug design discussed. Methods: $\\mathrm{Cryo}$-$\\mathrm{EM}$, Single-particle analysis."
   },
   {
     "title": "Effectiveness of a Robotic Surgical System for Minimally Invasive Prostatectomy",
@@ -86,7 +86,7 @@
     "doi": "10.1600/biotech.crispr.05",
     "source": "Science",
     "url": "https://science.example/16",
-    "abstract": "We used an AAV-delivered CRISPR-Cas9 system to correct the $\Delta\mathrm{F508}$ mutation in cystic fibrosis transmembrane conductance regulator ($\mathrm{CFTR}$) in primary human bronchial epithelial cells. Correction efficiency reached $40\%$ and restored chloride channel function. Methods: $\mathrm{CRISPR/Cas9}$, $\mathrm{AAV}$ delivery, Patch-clamp electrophysiology.",
-    "text": "We used an $\mathrm{AAV}$-delivered $\mathrm{CRISPR}$-$\mathrm{Cas9}$ system to correct the $\Delta\mathrm{F508}$ mutation in cystic fibrosis transmembrane conductance regulator ($\mathrm{CFTR}$) in primary human bronchial epithelial cells. Correction efficiency reached $40\%$ and restored chloride channel function. Methods: $\mathrm{CRISPR/Cas9}$, $\mathrm{AAV}$ delivery, Patch-clamp electrophysiology."
+    "abstract": "We used an AAV-delivered CRISPR-Cas9 system to correct the $\\Delta\\mathrm{F508}$ mutation in cystic fibrosis transmembrane conductance regulator ($\\mathrm{CFTR}$) in primary human bronchial epithelial cells. Correction efficiency reached $40\\%$ and restored chloride channel function. Methods: $\\mathrm{CRISPR/Cas9}$, $\\mathrm{AAV}$ delivery, Patch-clamp electrophysiology.",
+    "text": "We used an $\\mathrm{AAV}$-delivered $\\mathrm{CRISPR}$-$\\mathrm{Cas9}$ system to correct the $\\Delta\\mathrm{F508}$ mutation in cystic fibrosis transmembrane conductance regulator ($\\mathrm{CFTR}$) in primary human bronchial epithelial cells. Correction efficiency reached $40\\%$ and restored chloride channel function. Methods: $\\mathrm{CRISPR/Cas9}$, $\\mathrm{AAV}$ delivery, Patch-clamp electrophysiology."
   }
 ]
